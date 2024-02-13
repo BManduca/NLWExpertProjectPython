@@ -8,4 +8,18 @@
 ### Pylint
 - Pylint is a static code analyser for Python 2 or 3.
 - install: pip3 install pylint
+
+### snake_case
+- São utilizados para Funções, variáveis e métodos
+
+### PascalCase
+- Utilizado para Classes
+
+### Organização de código
+- o pylint sempre vai exigir que seja realizado uma documentação de módulo, logo no início do documento
+- e também documentação sobre a função criada em si.
 <!-- 18 MINUTOS -->
+
+### Criando um arquivo geral de configuração
+- No terminal, digitar o seguinte comando dentro da pasta do projeto
+  - pylint --generate-rcfile > .pylintrc
