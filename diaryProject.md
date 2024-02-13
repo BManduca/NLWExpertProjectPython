@@ -25,3 +25,7 @@
 ### Criando um arquivo geral de configuração
 - No terminal, digitar o seguinte comando dentro da pasta do projeto
   - pylint --generate-rcfile > .pylintrc
+
+### Criando um arquivo de todas as dependências/instalações e suas respectivas versões, que estão presentes dentro do projeto
+  - dentro do projeto realizar o seguinte comando:
+    - .venv/bin/pip3/ freeze > requirements.txt
