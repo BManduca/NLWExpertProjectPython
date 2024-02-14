@@ -29,3 +29,27 @@
 ### Criando um arquivo de todas as dependências/instalações e suas respectivas versões, que estão presentes dentro do projeto
   - dentro do projeto realizar o seguinte comando:
     - .venv/bin/pip3/ freeze > requirements.txt
+
+### Pre-commit: A framework for managing and maintaining multi-language pre-commit hooks.
+  - install: pip install pre-commit
+
+### Flask: A simple framework for building complex web applications.
+  - install: pip3 install Flask
+
+### Python-barcode: Create standard barcodes with Python
+  - install: pip3 install python-barcode
+  - doc: https://python-barcode.readthedocs.io/en/stable/
+
+### Pillow: Python Imaging Library (Fork)
+  - install: pip3 install pillow
+
+### Inicializando servidor Flask
+  ```
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    # para rodar servidores em Flask, é preciso definir a função main
+    if __name__ == '__main__':
+        app.run(host='0.0.0.0', port=3000)
+  ```  
