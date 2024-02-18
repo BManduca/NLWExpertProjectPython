@@ -53,3 +53,18 @@
     if __name__ == '__main__':
         app.run(host='0.0.0.0', port=3000)
   ```  
+
+  ### Criando decoradores para inicializar rotas
+    - devemos usar o seguinte:
+      - @apps.route('')
+
+  ### Codificação para gerar o QRCode, através da biblioteca barcode
+    - Code128 -> codificação para geracao de tag
+
+  ### Modularização da aplicação
+    - Isto pode ser feito através das Blueprints
+      - Blueprints ajudam você a estruturar seu aplicativo organizando a lógica em subdiretórios. Além disso, você pode armazenar seus modelos e arquivos estáticos junto com a lógica no mesmo subdiretório.
+
+  ### PyCache
+    - São arquivos que o python cria, para criar um tipo de otimização quando for rodar os projetos 
+    - É basicamente como se fosse compilar parte do código e fosse criando esses arquivos .pyc

@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "python.linting.pylintArgs": ["--disable=C0114"]
+}
