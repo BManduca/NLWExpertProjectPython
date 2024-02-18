@@ -1,7 +1,11 @@
 [MAIN]
 disable=
     C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
     C0116, # missing-function-docstring
+    W0703, # Catching too general exception Exception
+    R0903, # too-few-public-methods
+    W0612, # Unused variable 'product_code' (unused-variable)
 
 
 init-hook='import sys; sys.path.append("/Users/brunnomanduca/Documents/repositórios/MyGithub/NLWExpertProjectPython/")'

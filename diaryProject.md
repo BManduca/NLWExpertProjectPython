@@ -68,3 +68,11 @@
   ### PyCache
     - São arquivos que o python cria, para criar um tipo de otimização quando for rodar os projetos 
     - É basicamente como se fosse compilar parte do código e fosse criando esses arquivos .pyc
+
+  ### Views
+    - Local para tratar o HTTP
+
+  - ### Http types
+    - É onde iremos criar todas as tipagens que iremos ter para o protocolo HTTP
+
+  <!-- Stop 37:22 -->
